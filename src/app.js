@@ -20,6 +20,6 @@ app.get("/", (req, res) => {
 conn.sync({ force: false }).then(() => {
     app.listen(PORT, () => {
         console.log("Backend is up and running on port ==>", PORT);
-    })
+    });
 });
 
